@@ -1,0 +1,19 @@
+# Configuration template for Clinical NLP Pipeline
+azure:
+  subscription_id: "<YOUR_SUBSCRIPTION_ID>"
+  resource_group: "<YOUR_RESOURCE_GROUP>"
+  key_vault_name: "<YOUR_KEY_VAULT_NAME>"
+  storage_account: "<YOUR_STORAGE_ACCOUNT_NAME>"
+  blob_container: "<YOUR_BLOB_CONTAINER>"
+  databricks_workspace: "<YOUR_DATABRICKS_WORKSPACE_NAME>"
+  cognitive_service_endpoint: "<YOUR_COG_SERVICE_ENDPOINT>"
+  cognitive_service_name: "<YOUR_COG_SERVICE_NAME>"
+  sql_server: "<YOUR_SQL_SERVER_NAME>.database.windows.net"
+  sql_database: "<YOUR_SQL_DATABASE_NAME>"
+  sql_table: "<YOUR_SQL_TABLE_NAME>"
+
+data:
+  raw_data_path: "/mnt/raw_data/"
+  processed_data_path: "/mnt/processed_data/"
+
+batch_size: 10

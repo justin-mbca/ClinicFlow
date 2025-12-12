@@ -1,0 +1,23 @@
+# Core Azure and Databricks
+azure-identity==1.15.0
+azure-keyvault-secrets==4.8.0
+azure-ai-textanalytics==5.3.0
+azure-storage-blob==12.19.0
+pyspark==3.5.0
+
+# Open-source NLP
+transformers==4.36.2
+spacy==3.7.2
+torch==2.1.2
+sentencepiece==0.1.99
+
+# Data & DB
+sqlalchemy==2.0.23
+pyodbc==5.1.0
+pandas==2.1.4
+
+# YAML & Logging
+pyyaml==6.0.1
+
+# Utilities
+tqdm==4.66.1
