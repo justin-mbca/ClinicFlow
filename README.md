@@ -32,6 +32,15 @@ This project demonstrates a production-ready pipeline for de-identifying clinica
 - Automated PHI de-identification and medical entity extraction
 - Demonstrated robust, production-ready engineering practices
 
+## Portfolio Project Highlights
+
+- **GitHub Repository:** [https://github.com/justin-mbca/ClinicFlow](https://github.com/justin-mbca/ClinicFlow)
+- Designed and implemented a secure, production-ready clinical NLP pipeline on Azure, leveraging Databricks, Azure Cognitive Services, and open-source models for de-identification and medical entity extraction.
+- Integrated Azure Key Vault for secret management and Azure SQL Database for structured results storage.
+- Developed parallel data flows to compare cloud-native and open-source NLP approaches, optimizing for cost, accuracy, and compliance.
+- Automated PHI masking and SNOMED CT mapping, demonstrating advanced healthcare data engineering and MLOps skills.
+- Documented the workflow and results for clear communication and portfolio presentation.
+
 ## Documentation
 - See `PRODUCTION_NOTES.md` for scaling, monitoring, and trade-off analysis.
 - See `Clinical_NLP_Pipeline_Prototype.ipynb` for a runnable prototype and workflow demonstration.
